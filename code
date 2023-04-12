@@ -1,0 +1,61 @@
+print("Welcome to the Adventure Game!")
+print("As an avid soon, you have decided many problems in your life.")
+print("In this game, you're rooting for a character who has to take out a fight for different actions..")
+print("The goal of this game is to live this day by taking the right actions.")
+print("Start of the your game,you come to home after your school,you should  decided what you want do after your school")
+print("Let's start with your name: ")
+name = input()
+print("Good luck, " +name+ ".")
+print("You come after school,first task for u, choose the right answer, make homework or go to sleep?")
+var2 = input(" P.s(your mom  said u making your homework after school)  your choice: make homework or go to sleep : ")
+if var2 == "go to sleep":
+    # do not do thing
+    print("game over")
+elif var2 == "make homework":
+ # do a thing
+ print("u are right,The next day you got a good grade in school and your mom didn't give you a punishment.")
+if var2 == 'make homework':
+ # do another thing
+ print("Good start,let's to the next task ")
+print("Okay next task for u, walking with your friends or go to the computer club")
+var3 = input(" hm... go to walking with friends or go to the computer club? : ")
+if var3 == "go to walking with your friends":
+    # do a thing
+    print("you are right,but your friends no longer communicate with you")
+elif var3 == 'go to the compute club':
+ # do  the thing
+ print("Good choose,:You'll improve your health and relationships with your friends while walking")
+else:
+    print("Good choose,:You'll improve your health and relationships with your friends while walking")
+    if var3 == 'go to the computer club':
+        # do another thing
+        print("you are right,but your friends no longer communicate with u")
+print("You are doing well go to the next question")
+print("Your mom call you on the cell phone.....")
+print("Mom:hey...You should to go home and going in your bed")
+var4 = input("next task for u,go home in your bed or take 30 more min on the game club : ")
+if var4 == "go home and going in your bed or take 30 more min on the game club?":
+      # do a thing
+    print("u are right")
+elif var4 == "take 30 more min on the game club":
+        # do not do thing
+    print("game over,your mom take your phone on one month!")
+else:
+        print("You picked go home and going in your bed,Good choice!")
+        if var4 == "go home and going in your bed":
+            # do another thing
+         print("Congratulations,lets to the next step")
+print("You wake on the next morning and you should go to the school,but you dont wont go to the school")
+
+var5 = input(" go to school or pretend to be sick? : ")
+if var5 == "go to school":
+    # do a thing
+    print("you are right,you are dont receive the punishment for your mom")
+elif var5 == 'pretend to be sick':
+ # do  the thing
+ print("your mom  take your computer on one month(")
+else:
+    print("Good choose,:You'll improve your relationship with your mom")
+print("Congratulations, you lived one day in the life of a teenager without receiving punishment from your mother.")
+while True:
+    print("mission complete-__-!")
